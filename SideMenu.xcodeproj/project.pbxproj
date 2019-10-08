@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		04B5CF632347B9130052FF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF622347B9130052FF81 /* AppDelegate.swift */; };
-		04B5CF652347B9130052FF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF642347B9130052FF81 /* ViewController.swift */; };
 		04B5CF682347B9130052FF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5CF662347B9130052FF81 /* Main.storyboard */; };
 		04B5CF6A2347B9130052FF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5CF692347B9130052FF81 /* Assets.xcassets */; };
 		04B5CF6D2347B9130052FF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5CF6B2347B9130052FF81 /* LaunchScreen.storyboard */; };
 		04B5CF782347B9130052FF81 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF772347B9130052FF81 /* SideMenuUITests.swift */; };
+		04B5CF8C2347BA8D0052FF81 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF8B2347BA8D0052FF81 /* ContainerController.swift */; };
+		04B5CF8E2347BABA0052FF81 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF8D2347BABA0052FF81 /* HomeController.swift */; };
+		04B5CF902347BACB0052FF81 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF8F2347BACB0052FF81 /* MenuController.swift */; };
+		04B5CF922347E46C0052FF81 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF912347E46C0052FF81 /* Protocols.swift */; };
+		04B5CF942347F50E0052FF81 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF932347F50E0052FF81 /* MenuOptionCell.swift */; };
+		04B5CF96234800940052FF81 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF95234800940052FF81 /* MenuOption.swift */; };
+		04B5CF98234810CD0052FF81 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5CF97234810CD0052FF81 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,6 @@
 /* Begin PBXFileReference section */
 		04B5CF5F2347B9130052FF81 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B5CF622347B9130052FF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04B5CF642347B9130052FF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04B5CF672347B9130052FF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B5CF692347B9130052FF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B5CF6C2347B9130052FF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,13 @@
 		04B5CF732347B9130052FF81 /* SideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B5CF772347B9130052FF81 /* SideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUITests.swift; sourceTree = "<group>"; };
 		04B5CF792347B9130052FF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B5CF8B2347BA8D0052FF81 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		04B5CF8D2347BABA0052FF81 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		04B5CF8F2347BACB0052FF81 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		04B5CF912347E46C0052FF81 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		04B5CF932347F50E0052FF81 /* MenuOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		04B5CF95234800940052FF81 /* MenuOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		04B5CF97234810CD0052FF81 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,11 @@
 		04B5CF612347B9130052FF81 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				04B5CF8A2347BA520052FF81 /* Controller */,
+				04B5CF892347BA430052FF81 /* View */,
+				04B5CF882347BA1C0052FF81 /* Model */,
+				04B5CF862347B9BD0052FF81 /* Utils */,
 				04B5CF622347B9130052FF81 /* AppDelegate.swift */,
-				04B5CF642347B9130052FF81 /* ViewController.swift */,
 				04B5CF662347B9130052FF81 /* Main.storyboard */,
 				04B5CF692347B9130052FF81 /* Assets.xcassets */,
 				04B5CF6B2347B9130052FF81 /* LaunchScreen.storyboard */,
@@ -94,6 +109,41 @@
 				04B5CF792347B9130052FF81 /* Info.plist */,
 			);
 			path = SideMenuUITests;
+			sourceTree = "<group>";
+		};
+		04B5CF862347B9BD0052FF81 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04B5CF912347E46C0052FF81 /* Protocols.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		04B5CF882347BA1C0052FF81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B5CF95234800940052FF81 /* MenuOption.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04B5CF892347BA430052FF81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B5CF932347F50E0052FF81 /* MenuOptionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04B5CF8A2347BA520052FF81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B5CF8B2347BA8D0052FF81 /* ContainerController.swift */,
+				04B5CF8D2347BABA0052FF81 /* HomeController.swift */,
+				04B5CF8F2347BACB0052FF81 /* MenuController.swift */,
+				04B5CF97234810CD0052FF81 /* SettingsController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B5CF652347B9130052FF81 /* ViewController.swift in Sources */,
+				04B5CF98234810CD0052FF81 /* SettingsController.swift in Sources */,
+				04B5CF922347E46C0052FF81 /* Protocols.swift in Sources */,
+				04B5CF942347F50E0052FF81 /* MenuOptionCell.swift in Sources */,
+				04B5CF96234800940052FF81 /* MenuOption.swift in Sources */,
+				04B5CF902347BACB0052FF81 /* MenuController.swift in Sources */,
+				04B5CF8E2347BABA0052FF81 /* HomeController.swift in Sources */,
 				04B5CF632347B9130052FF81 /* AppDelegate.swift in Sources */,
+				04B5CF8C2347BA8D0052FF81 /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +460,7 @@
 				04B5CF7E2347B9130052FF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B5CF7F2347B9130052FF81 /* Build configuration list for PBXNativeTarget "SideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +469,7 @@
 				04B5CF812347B9130052FF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
